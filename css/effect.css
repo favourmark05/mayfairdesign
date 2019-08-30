@@ -1,0 +1,82 @@
+.navbar-light.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+p~a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration-line: none;
+}
+
+.btn-yel:hover{
+  background-color: #fff;
+  border: 2px solid orange;
+  color: orange;
+}
+.view:hover{
+  background-color: orange;
+  border: none;
+  color: #fff;
+}
+.cardSummit:hover{
+  background-color: #fff;
+  border: 2px solid orange;
+  color: orange;
+}
+
+.welcome{
+  /* border-right: 2px solid rgba(255,255,255,.75); */
+  /* text-align: center; */
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.welcome{
+animation: typewriter 5s steps(32) 1s 1 normal both,
+           blinkTextCursor 500ms steps(32) infinite normal;
+  animation-iteration-count:infinite;
+  animation-delay: 3s;
+  animation-duration: 7s;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 22em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+/* @media only screen and (min-width: 601px) {
+  .type-line{
+    font-size: 80px;
+  }
+} */
+
+
+button a        {    
+  padding:20px;
+  width:100%;
+  display: block;
+  background-image: linear-gradient(to left,
+                    transparent,
+                    transparent 50%,
+                    white 50%,
+                    orange);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+  font-weight: 700;
+}
+
+button a:hover {
+  background-position: 0 0;
+  color: white;
+  text-decoration-line: none;
+  border: none !important;
+  font-weight: 700;
+}

@@ -1,0 +1,332 @@
+
+.bg-one{
+  height: 700px;
+  background-color: white;
+}
+.bg-two{
+    background-color: orange;
+    height:700px;
+}
+.img-over{
+    position: absolute;
+    left: 400;
+}
+.cart{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.barLine{
+    transform: rotate(90deg);
+}
+
+
+.text{
+    padding-top: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.border-img{
+    /* border: 2px solid gray; */
+    /* padding: 4px 2px; */
+    display: block;
+}
+.btn-yel{
+    text-align: center;
+    display: block;
+    border: 2px solid white;
+    padding: 20px 30px;
+    background-color: orange;
+    margin-left: 15%;
+    margin-top: 5em;
+    width: 200px;
+}
+
+.projects{
+    margin-top: 10em;
+    background-color: rgb(248, 245, 241);
+    padding-bottom: 5em;
+}
+.projects-head >h1{
+    padding:20px !important;
+    text-align: center;
+    font-weight: 900px;
+
+}
+.img-br{
+    height:580px;
+}
+#btnDL{
+    left: 470px;
+    bottom: 40px;
+    transform: rotate(90deg);
+    background-color: #fff;
+    padding: 25px;
+}
+#btnDR{
+    right: 450px;
+    top: 302px;
+    transform: rotate(270deg);
+    background-color: #fff;
+    padding: 25px;
+}
+.view{
+    text-align: center;
+    display: block;
+    border: 2px solid orange;
+    padding: 20px 30px;
+    width:  15%;
+    position: relative;
+    left: 42%;
+    font-weight: 700;
+}
+.process{
+    background-image: linear-gradient(rgb(10, 10, 10, 0.6), rgb(10, 10, 10, 0.6), rgb(10, 10, 10, 0.6)), url(../img/pexel.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    height: 700px;
+    margin-top: 10em;
+}
+.process-head, .process-text{
+    text-align: center;
+    margin-bottom: 40vh;
+    font-weight: 700px;
+}
+.process-h{
+    padding: 10px;
+    font-size: 20px;
+}
+/* .process-row >p{
+    font-weight: 300;
+} */
+.inspire-text{
+    text-align: center;
+    margin-bottom: 10vh;
+    font-weight: 700px;
+}
+/* .moveLeft, .moveRight{
+    position: sticky;
+    top: 100px;
+    left: 470px;
+} */
+
+.cost{
+    margin-top: 10em;
+    background-color: rgb(217, 248, 244);
+    height: 500px;
+    border-radius: 20px;
+    transform: skewY(3deg);
+}
+
+/* .cost-white-bg{
+    background-color: #fff;
+    justify-content: center;
+}.cost-head{
+    text-align: center;
+    position: relative;
+} */
+.card{
+    height: 350px;
+    transform: skewY(-3deg);
+}
+.cardEmail{
+    border: 1px solid grey;
+    height: 50px;
+    width: 300px;
+}
+.cardSummit{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+}
+.card-box{
+    margin-top: 5em;
+}
+footer{
+    margin-top:5em;
+    background-color: rgb(248, 219, 165);
+}
+footer >p{
+    font-size: 10px;
+}
+.project-add{
+    padding: 20px 30px;
+    border: 2px solid black;
+    width: 180px;
+    transform: rotate(90deg);
+    top: 60px;
+
+}
+.footer-lane-one{
+    /* border: none; */
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+
+/* extra styles */
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.progress-bar{
+    /* color: orange !important; */
+    background-color: orange !important;
+}
+
+/* media screen */
+@media screen and (max-width:740px) {
+    /* body{
+        width: 365px auto;
+    } */
+    #btnDL,#btnDR{
+        display: none;
+    }
+    .img-envelope{
+        display: none !important;
+    }
+    .brands-img{
+        width: 365px;
+        margin-bottom: 5em;
+    }
+    .explore{
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+    .arrow-down{
+        position: relative;
+       /* width: 100%; */
+       display: block;
+       margin: 0 auto;
+       /* padding: 30px; */
+    }
+    .img-1,.img-2,.img-3,.img-4,.img-5{
+        display: block;
+        margin: 0 auto;
+    }
+    /* .img-5{
+        margin-bottom: 30vh;
+    } */
+    .carousel-box{
+        margin-top: 10em;
+    }
+    .one{
+        clear: right;
+    }
+    .two{
+        clear: both;
+    }
+    .img-br{
+        height: 400px;
+        width: 100%;
+        padding-right: 30px;
+    }
+    .img-br2{
+        height: 400px;
+        width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .view{
+        justify-content: center;
+        width: 60%;
+        position: relative;
+        left: 90px;
+    }
+    .process{
+        height: 1100px;
+        background-repeat: no-repeat;
+        margin-bottom: 20em;
+        background-size: cover;
+    }
+    .process-head{
+        margin-bottom: 2vh;
+    }
+    .process-text{
+        margin-bottom: 2vh;
+    }
+    .inspire-head{
+        margin-bottom: 5vh;
+    }.inspire-p{
+        margin-bottom: 20vh;
+    }
+    .inspire-img1, .inspire-img2, .inspire-img3{
+        width: 100%;
+        padding: 20px;
+    }
+    .cost{
+        height: 550px;
+    }
+    .card{
+        height: 400px;
+    }.cardEmail{
+        width: 200px;
+    }.cardSummit{
+        width: 120px;
+    }
+    .process-h{
+        padding: 10px;
+        color: black;
+    }
+    .footer-contact{
+        text-align: center;
+    }.project-add {
+        transform: rotate(360deg);
+        position: absolute;
+        justify-content: center;
+        margin-bottom: 5em;
+        left: 100px;
+    }.copy{text-align: center;}
+    .brandLogo{
+        width: 100px;
+    }
+}
+
+.envelope{
+    position: relative;
+    top: 400px;
+    right: 90px;
+    padding-top: 10px;
+    display: block;
+    border: 3px solid orange;
+    height: 55px;
+}
+.envelope:hover{
+    background-color: orange;
+}
+/* .play-icon{
+    position:;
+    top: 160px;
+} */
+.letter-one,.letter-five{
+    /* border: 20px solid orange; */
+    display: block;
+    color: black;
+    /* transform: rotate(-90deg); */
+    font-weight: 700;
+    position: relative;
+}
+.letter-one{
+    top: 42%;
+    left: 45%;
+}
+.letter-five{
+    top: 77%;
+    left: 45%;
+}
+.play-icon{
+    position: relative;
+    top: 80%;
+    left: 45%;
+    width: 20px;
+    display: inherit;
+}
+
